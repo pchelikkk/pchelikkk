@@ -1,8 +1,12 @@
-# Hi, I'm @pchelikkk
+# Hi, I'm Roman Korotkov (@pchelikkk)
 
-I work on practical software projects and study software engineering tools. My current interests include Python automation, web applications, data pipelines and AI integrations.
+I'm a second-year Data Science and Artificial Intelligence student at Innopolis University. My current interests include Python automation, web applications, data pipelines and AI integrations.
 
 ## Projects
+
+### [Availability Automation](https://github.com/pchelikkk/availability-automation)
+
+A portfolio case study of a personal availability-monitoring and owner-controlled purchasing workflow. The public extraction includes an offline SQLite accounting core with budget limits, persistent purchase intents, duplicate handling and 17 passing tests. It does not initiate payments or contain working account credentials.
 
 ### [BudgetBites](https://github.com/pchelikkk/se-toolkit-hackathon)
 
