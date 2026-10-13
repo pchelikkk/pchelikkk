@@ -1,21 +1,27 @@
-# Hi, I'm Roman Korotkov (@pchelikkk)
+# Роман Коротков
 
-I'm a second-year Data Science and Artificial Intelligence student at Innopolis University. My current interests include Python automation, web applications, data pipelines and AI integrations.
+Студент 2 курса Университета Иннополис, направление **«Анализ данных и искусственный интеллект»**. Интересуюсь аналитикой, автоматизацией и AI-интеграциями. Ниже - учебные и личные проекты с описанием задач и моего вклада.
 
-## Projects
+## С чего начать
 
-### [Availability Automation](https://github.com/pchelikkk/availability-automation)
+| Проект | Задача | Что посмотреть |
+|---|---|---|
+| [Sunwise / Koyash](sunwise-case-study.md) | Командный сервис подбора косметического ухода | Мой вклад в документацию, пользовательские истории, приёмку и подготовку релиза |
+| [BudgetBites](https://github.com/pchelikkk/se-toolkit-hackathon) | Планирование питания с учётом бюджета и продуктов | FastAPI / React / SQLite, LLM API, скриншоты интерфейса и запуск через Docker |
+| [Availability Automation](https://github.com/pchelikkk/availability-automation) | Мониторинг наличия и учёт ограничений автоматизации | Публичное автономное ядро на Python/SQLite и 17 тестов; описание Playwright/Telegram-сценария |
+| [Software Engineering Toolkits](https://github.com/pchelikkk/se-toolkit-course) | Университетские лабораторные, собранные в одном месте | Индекс восьми работ, исходные шаблоны и доработки в моих форках |
 
-A portfolio case study of a personal availability-monitoring and owner-controlled purchasing workflow. The public extraction includes an offline SQLite accounting core with budget limits, persistent purchase intents, duplicate handling and 17 passing tests. It does not initiate payments or contain working account credentials.
+## Мой вклад и подход
 
-### [BudgetBites](https://github.com/pchelikkk/se-toolkit-hackathon)
+- В командном Sunwise/Koyash основной вклад был в документацию: спринты, пользовательские истории, changelog и материалы приёмки. Также помогал по frontend/backend.
+- В BudgetBites дорабатывал приложение, обработку ошибок/LLM fallback и Docker-развёртывание.
+- Личную автоматизацию строил под конкретную задачу: уведомления, повторные попытки, сохранение состояния и контроль ограничений. В публичную версию вынес автономную часть, которую можно проверить без аккаунтов и платежей.
+- Использую AI-инструменты для разработки; проверяю поведение, разбираю ошибки и уточняю решение по результатам тестирования.
 
-A hackathon meal-planning web application for students on a budget. FastAPI backend, React frontend, SQLite, OpenRouter integration, meal-plan history and favorites, RU/EN interface, and Docker configuration. The repository contains screenshots and local setup instructions. The university-network deployment link may not be accessible outside that network.
+## Навигация по лабораторным
 
-### [Software Engineering Toolkits](https://github.com/pchelikkk/se-toolkit-course)
+- **Данные и backend:** [lab-05](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-05).
+- **API, Telegram и AI-интеграции:** [lab-07](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-07), [lab-08](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-08).
+- **Тестирование и интерфейс:** [lab-04](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-04).
 
-Eight labs collected in one repository. Coursework covers REST APIs, testing, an ETL pipeline and analytics dashboard, tool-using agents, a Telegram bot and MCP integration. These projects build on university templates; the repository distinguishes course material from changes in my forks.
-
-## How I work
-
-I use AI-assisted development and check the resulting behavior through testing and iteration. Project descriptions distinguish coursework and prototypes from released products.
+Лабораторные и хакатон основаны на материалах курса **Software Engineering Toolkits**. В репозиториях сохранены ссылки на исходники и описано, какие изменения есть в моих форках. Личные проекты, учебные работы и командный вклад обозначены отдельно.
