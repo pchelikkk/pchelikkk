@@ -1,27 +1,10 @@
 # Роман Коротков
 
-Студент 2 курса Университета Иннополис, направление **«Анализ данных и искусственный интеллект»**. Интересуюсь аналитикой, автоматизацией и AI-интеграциями. Ниже - учебные и личные проекты с описанием задач и моего вклада.
+Студент 2 курса Университета Иннополис — «Анализ данных и искусственный интеллект».
 
-## С чего начать
+## Проекты
 
-| Проект | Задача | Что посмотреть |
-|---|---|---|
-| [Sunwise / Koyash](sunwise-case-study.md) | Командный сервис подбора косметического ухода | Мой вклад в документацию, пользовательские истории, приёмку и подготовку релиза |
-| [BudgetBites](https://github.com/pchelikkk/se-toolkit-hackathon) | Планирование питания с учётом бюджета и продуктов | FastAPI / React / SQLite, LLM API, скриншоты интерфейса и запуск через Docker |
-| [Availability Automation](https://github.com/pchelikkk/availability-automation) | Мониторинг наличия и учёт ограничений автоматизации | Публичное автономное ядро на Python/SQLite и 17 тестов; описание Playwright/Telegram-сценария |
-| [Software Engineering Toolkits](https://github.com/pchelikkk/se-toolkit-course) | Университетские лабораторные, собранные в одном месте | Индекс восьми работ, исходные шаблоны и доработки в моих форках |
-
-## Мой вклад и подход
-
-- В командном Sunwise/Koyash основной вклад был в документацию: спринты, пользовательские истории, changelog и материалы приёмки. Также помогал по frontend/backend.
-- В BudgetBites дорабатывал приложение, обработку ошибок/LLM fallback и Docker-развёртывание.
-- Личную автоматизацию строил под конкретную задачу: уведомления, повторные попытки, сохранение состояния и контроль ограничений. В публичную версию вынес автономную часть, которую можно проверить без аккаунтов и платежей.
-- Использую AI-инструменты для разработки; проверяю поведение, разбираю ошибки и уточняю решение по результатам тестирования.
-
-## Навигация по лабораторным
-
-- **Данные и backend:** [lab-05](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-05).
-- **API, Telegram и AI-интеграции:** [lab-07](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-07), [lab-08](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-08).
-- **Тестирование и интерфейс:** [lab-04](https://github.com/pchelikkk/se-toolkit-course/tree/main/lab-04).
-
-Лабораторные и хакатон основаны на материалах курса **Software Engineering Toolkits**. В репозиториях сохранены ссылки на исходники и описано, какие изменения есть в моих форках. Личные проекты, учебные работы и командный вклад обозначены отдельно.
+- **[Sunwise / Koyash](https://gitlab.pg.innopolis.university/s.anisimov/sunwise-koyash)** — командный сервис подбора косметического ухода. React, FastAPI, MongoDB, Docker. Университетский GitLab; доступ может быть ограничен.
+- **[BudgetBites](https://github.com/pchelikkk/se-toolkit-hackathon)** — планировщик питания с учётом бюджета и продуктов. FastAPI, React, SQLite, LLM API, Docker. Учебный хакатон.
+- **[Availability Automation](https://github.com/pchelikkk/availability-automation)** — ядро учёта событий и повторных попыток для монитора наличия. Python, SQLite; 17 автономных тестов.
+- **[Software Engineering Toolkits](https://github.com/pchelikkk/se-toolkit-course)** — восемь лабораторных по разработке ПО: API, ETL, тесты, Telegram и AI-интеграции. Основаны на шаблонах курса.
